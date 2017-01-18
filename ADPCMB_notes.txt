@@ -1,0 +1,16 @@
+Full ADPCM-B address (24 bits)
+y is set by software
+x is an internal counter
+
+yyyyyyyy yyyyyyyy xxxxxxxx
+FEDCBA98 76543210
+
+PAD* signals:
+    7654 3210     76543210
+                  xxxxxxxx internal counter
+    yyyy yyyy              register
+
+PA* signals:
+7654         3210
+             yyyy          register
+yyyy                       register

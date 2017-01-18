@@ -1,0 +1,16 @@
+Full ADPCM-A address (24 bits)
+y is set by software
+x is an internal counter
+
+yyyyyyyy yyyyyyyy xxxxxxxx
+FEDCBA98 76543210
+
+RAD* signals:
+      10 765432   76543210
+                  xxxxxxxx internal counter
+      yy yyyyyy            register
+
+RA* signals:
+765432         10
+               yy          register
+yyyyyy                     register
