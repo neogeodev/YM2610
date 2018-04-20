@@ -1,0 +1,44 @@
+D* OE is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  -   -   -   x  x  -  Read any
+
+B is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  -   -   x   -  -  x  Write x0 (reg address)
+
+C is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  x   x   -   x  x  -  Read 01 (SSG)
+
+D is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  x   x   -   x  -  x  Write 10 (addr FM, ADPCM)
+
+E is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  -   x   x   x  -  x  Write 00 (addr FM, ADPCM, Timers)
+
+F is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  x   -   -   x  -  x  Write x1 (reg data)
+
+G is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  x  -   -   x   x  x  -  Read 10 (ADPCM flags)
+
+H is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  -   x   x   x  x  -  Read 00 (busy/timer flags)
+
+J is pulled high
+Goes low if any:
+CS A1 A0 !A1? !A0 ?? RD WR
+ x  -  -   -   -   -  -  x  Write any
