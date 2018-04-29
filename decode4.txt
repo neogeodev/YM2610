@@ -1,0 +1,7 @@
+Z AB CD EF GH IJ KL MN OP
+  xx
+      x xx xx xx
+x x   x xx       xx xx x
+x x
+x  x  x  x x   x xx
+   x xx xx xx
