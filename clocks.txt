@@ -1,0 +1,23 @@
+Rotator is 12 bits
+
+  0123456789AB
+A x x x x x x  __''__''__''__''__''__''
+B   xxxxxxxxxx ''''____________________
+C   xx    xx   ''''____''''''''____''''
+D x    xx    x __''''''''____''''''''__
+E         xxxx ''''''''''''''''________
+F xxxxxxxxxxx  ______________________''
+G x  x  x  x   __''''__''''__''''__''''
+H   xxxx       ''''________''''''''''''
+I   x  x  x  x ''''__''''__''''__''''__
+
+C & D are used as normal and complement for the two big drivers ?
+E & H are merged to drive the bottom, smaller driver ?
+
+Rotator is clocked at 8M/2 = 4M ?
+
+A: 4M / 2 = 2MHz
+C+D: 4M * 4 / 12 = 1.333MHz
+E+H: 4M * 2 / 12 = 0.667MHz
+G: 4M * 4 / 12 = 1.333MHz
+I: 4M * 4 / 12 = 1.333MHz

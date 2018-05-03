@@ -1,0 +1,32 @@
+Input top left
+Output bottom left
+
+   0123456789ABC
+A          x
+!B           x
+B           x
+C              x
+D             x
+E  x x x x
+!E  x x x xxxxxx
+!F   xx  xx   xx
+F  xx  xx  xxx
+G  xxxx    xxx
+!G     xxxx   xx
+!H         xxxxx
+H  xxxxxxxx
+
+   0123456789ABC
+A          xxxxxx
+B          xx  xx
+C          x   xx
+D          x x xx
+E          xx  xx
+F       xx
+G   xx       x
+H  x x x      x
+I   xxxx     x
+J             x
+K    x
+L         x
+M        x
